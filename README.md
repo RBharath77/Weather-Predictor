@@ -55,7 +55,3 @@ Columns: time, tavg, tmin, tmax, prcp
 ## 📜 License
 
 Open-source and free to use.
-
-## 💬 Author
-
-**R. Bharath Rajagopal**
