@@ -10,6 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report
 file_path = "/mnt/data/Chennai_1990_2022_Madras.csv"
 df = pd.read_csv(file_path)
 
+
 df = df.dropna(subset=['tavg', 'tmin', 'tmax', 'prcp'])
 df.fillna(method='ffill', inplace=True)
 
